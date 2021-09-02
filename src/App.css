@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  max-width: 33rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border: 1px solid #999;
 }
 
 .App-logo {
@@ -13,7 +18,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +27,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -36,3 +41,68 @@
     transform: rotate(360deg);
   }
 }
+
+
+.application {
+  font-family: sans-serif;
+  max-width: 33rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border: 1px solid #999;
+}
+
+.App-Header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.editor-class {
+  background-color:lightgray;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+
+.preview {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.cancel {
+  margin-left: 150px;
+  margin-top: 10px;
+  background-color: #ff4d4d;
+  color : white;
+}
+
+.publish{
+  background-color : #4d94ff;
+  color : white;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+    margin-left: 1450px;
+  }
+.inner
+{
+    display: inline-block;
+    margin-left: 2px;
+}
+
